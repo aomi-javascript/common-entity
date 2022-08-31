@@ -1,0 +1,33 @@
+{
+  "name": "@aomi/common-mongodb-entity",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:mjs": "tsc",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build": "yarn clean && yarn format && yarn build:cjs && yarn build:mjs",
+    "clean": "rm -rf es && rm -rf lib",
+    "format": "prettier --write \"src/**/*.[jt]s\"",
+    "release": "semantic-release --debug --ci=false",
+    "prepare": "yarn build"
+  },
+  "repository": "git@github.com:aomi-javascript/common-mongodb-entity.git",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "semantic-release": "^19.0.5",
+    "typescript": "^4.8.2"
+  }
+}
