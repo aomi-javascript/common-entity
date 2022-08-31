@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/aomi-javascript/common-entity/compare/v1.0.0...v1.0.1) (2022-08-31)
+
+
+### Bug Fixes
+
+* export module ([b53260f](https://github.com/aomi-javascript/common-entity/commit/b53260f1a864dda0c9f8f23d96f20e4b6f91fcc0))
+* npm include files ([5f468ef](https://github.com/aomi-javascript/common-entity/commit/5f468efa27afb558de3aba1c52d884578eb6e05d))
+
 # 1.0.0 (2022-08-31)
 
 
