@@ -9,6 +9,14 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "src",
+    "es",
+    "lib",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   "exports": {
     "./review": {
       "require": "./lib/review/*.js",
