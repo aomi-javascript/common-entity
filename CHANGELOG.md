@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/aomi-javascript/common-entity/compare/v1.0.3...v1.0.4) (2022-08-31)
+
+
+### Bug Fixes
+
+* exports ([f37eaa6](https://github.com/aomi-javascript/common-entity/commit/f37eaa6f942f79b5892471cb2ab3aa8b77a386d9))
+
 ## [1.0.3](https://github.com/aomi-javascript/common-entity/compare/v1.0.2...v1.0.3) (2022-08-31)
 
 
