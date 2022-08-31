@@ -1,7 +1,6 @@
 {
   "name": "@aomi/common-entity",
   "version": "1.0.4",
-  "type": "module",
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "license": "MIT",
